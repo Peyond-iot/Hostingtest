@@ -1,14 +1,18 @@
 {
   "name": "hostingtest",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A sample Express app for Render hosting.",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=16.x"
   }
 }
